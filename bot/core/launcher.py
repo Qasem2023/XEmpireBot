@@ -130,3 +130,8 @@ async def start() -> None:
 	elif action == 2:
 		tg_clients, session_data = await get_tg_clients()
 		await run_clients(tg_clients=tg_clients, session_data=session_data)
+
+
+
+
+		
